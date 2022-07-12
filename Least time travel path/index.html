@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Least time travel path</title>
+    <link rel="icon" type="image/x-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAh1BMVEUAAAD////z8/Pr6+vl5eXk5OTm5ub6+vrj4+P7+/v39/fv7+/09PTs7OyhoaHW1tbNzc3d3d2wsLBhYWEVFRWnp6e+vr6lpaWOjo4zMzMaGhqUlJSzs7OamppoaGhZWVlvb2/IyMhFRUV2dnY8PDxSUlImJiZCQkKGhoYQEBAtLS0vLy99fX11WFNqAAATpElEQVR4nO1da2OjrBIOqKiAMZdq7rc27Sb79v//voNXQEBj1OQ02/mwWaQyjDgwDzOMIwCAayMbsl8LIeflimj0/9GPoSV08rKdVb9UEY1c18WWZUHX9Qn79V+uOLJtx2LSQsf2fPbrvVxxxN7UtMzeXJf9Oi9XZGNo5xI7bvoAXq04gq9O2VxqO9nMY3svV7T/jfXQ93KJnfQBvFbRHrEVg7AVBLJfzFaQlyu6bLWw87nVyabaVyv+A+uh42QWgOdkBsHLFbOZxvEyvXS8lys6/8Zq8X+AcX7R0y96+kVP4PkY5xc93U+/6OnHFx+LnlybmfuPYPQk9BRAgOLZYhazp+y/InqC4WWU0/ViAfvl0BM8jETaO5b9EL4PQ0/bUZVm8JXQk/utCDgabcALoaelRsDRaAlfBj3FWgFHo9h6DfTkY4OAo1EQvAR6IkejhB8vgZ6oZxRwNIL0BdAT3nCBzhMASLziF3buC6AnwAU6+phdwGBfXlmBwfkPjp5sUorzBeys1v0qr9Gh+D4OPaGQLw4gryXcwgmH4vs49GSdSmlwURvwyec0FN8HoSfGZfrBJSxrAR9X8oPRE7LccLMWloZpkNf6AR9D9IPR02QpisdoDPNaEHE9RD8SPTEO3q4iXkIw+2NbMOPAD0RP7MF5uzdVPEZnZNnJ8sBXyLdpb3wfhJ58C4fLL614KW0mtreTrix/GHqaLq9m8fT05dGfgZ4IxN5Go3s30BKTp6MniqzkBxTTUuWP06llU/NyNtDaezp6Csff8/n8sp1iS1Pr4slGP7XcPowQDbX11oyeIBCmhlXkyrWE/btprXsqrUPyJPREwULuynXCAQ92QVj7cn5saiortHTpc9DTp9KVC8wmYgtrl/WSjjGog/cKfU3I49ETcnUiHJJJx1eMMon2W/b+hjV/oKMLpMOsh2boQf5qe/IBprULw/FECPKMAq4v74aar6m2G8OhJ2G74XY6xpAS1hSYKFVvAE7DCQNP5v3FpRs8Ej2djB0x0f4EAM6a0ozgKV1ak1pV+oLWE1DtxoDoqeUit98GtLxXI+DB5Yz0+/wpLXteD83oSR7C+ce8VrzjCQSI36vTQS8QGJ3NTTFtfAx6woLHb8HuoNaHqU/HEySWeK/uLdxJoMYVatbVaeti7lWf6EmYDk7p2oLgbqShfcxqA1u8VzeC1woj8SFE1SmNWaoPQE+8m9+gqP2jjN42ILh6r3aZmFQZiapoKZPaEqCh0ZPgtg1pXlvxkzGrBZCgeq+rFfAAqozEx3UFtKrmXyHtxTNlRk8W3y4qax2h8x8nQCxbc69+oacKI2QJ1XNMFUf4EmBvSPRkcZO7rEXT8trnDLLXXAN59ALuNHM6lFSRQF8dRjIkerL4M6U0r0XSW3reTTGp3qsX8KrHOCL0CInGWXyBaDj0hPkT3rn5NcWMW40tgAXUo9dBNhljLQ9RFd8YE5dUh3Ed+sOhJ8j5WFkt0S1z5x3i9xoEPFA9xpFUcU9th2qHcSj05AoIIGSTpoWjKvdCyDH0reReE5pAplVLWiUiktT6h8rN6+T9HQQ9ERHdvy+ijR5KZbTaTalRwDE0YhxZFVFS68+q91/MneyGnkCVUz2dJYtH2LtZ0xqM4wqquAY05Ys1a+Mw6Mn0Vt5Af4/8/ycktWxLjGRVZJfTWnUYXbGTth2Y+tzS91QDAOrpKrywB+oUC2DScpCuMJxRRRWzblhI0UaPd9LCMJHQvclvVe97oncKuBafTW6XIBrusrfvMEYiIyIaqCHK7RK9iZP0is6yZj53E4y6+p5Q3WZZ3S6psMW4y5qCU3HX7v0kMPIlVSy6AVBVG1NH1VS8ej65nX1P1shM0UndalToDaRNBVVb4cgZBUi4vufdwJphrO4NvCOrs+/paO79FvjbJiFPCbYiU82GCAEFI0kVt7Dohm3B+n2FlCZBrQjNvicfhFWl5zQDPiaz2m4sEovH0VYhUjDC4tBMSdkNjYmj0knBZe19T3R2TFb7T1WURTJCDTvbq53JEvA5I2FmWovdsBRtVClE3X1POMCJKOA/pfWo/c42pwNnJKui2I3mYVzDXiL3vDS8Qm1+O1Wv3UxxyQiJqjiTu6HgxiptrA6+pwraMe62ZfTWOPHI9MX9WJKB6klgq1kb9disET3pin49JwqgVbPXOxrNo1iamJJlkc1WONlJFia0a3KZplfzWvnRfkaxtD0Xgf4i9xSDURbQdXCdpTehyakgw3td6yWXWk02/i0Y8hXoD7gLPemLK4W5ICDwrTprnWHItKlWbkWVcntItNmxc5/vSVMk5pmTstWHCFvZf6sTxBLnTdV5LZrpA+S9csfltQnoL3IP6w6HpAJWa2OMIslYCAvIA+wuEk6KXlFuSGzNfW4duRfocfHVTWuFEZ5ThBhOOvG9EBiUTXWRMCh7xf0Oi5r1sH3knn6ymSW1VNBSzBTFJQths8cqm2qYkusJlb3iEs7Mfb4jco/qJ5tFIM20GwLgQp5XJ8VBp+AGa9NMM5T3CvNJeYt6jdwzOHAX4mp5RmPlQXwWYEIT4NGC/uK8V+BYXpuiDuhJKdrwqGe9vfD/a93HO5w1pXXS3U7fWa+g8MaADuhJUwzu3dwYHRH2AZTsk8tsvGM0ZpT9iuIfovxqJK0vc6Zn2BKe5xH0fO7pfjQxOs+ru667FLVkYe+s3xaUsGKQ8APKXvTXQfJkxsTc53vivGUBa4yc2+g/W2YEhOn3DaYnbE3xN0ULuDt6Yu8zAHrv0vGGnYYG2kl8fdHFP6d+vS2c0Al1RE8UAzI5xacps/M13qWw4QnfQCtP9DBhCSs2DWAy89T1vhk9+cTbFG/iPNbo4Jool9rTWODrwFZ267lWhBvQEz6KzbUMIrr9DV5ZAgLCLV6Lc1ArQjN66mB+HOK6pf1SvbCjqOArRdvU05x0O/fk3o1zDlsGds1DsQqxU61deaDgS24NqYtBx3NPJqjUQF8xW4lsKK1ZUcxf2cMJsPdHdRSOAcrnw5tU8RzlTp77fU9qJoQbKcVrkoAzaBEyGX9/fO9iWjBS5slVSLJeBmZ3whackmbGMYJWV98TNHJpJAZnZAETXJG07FqW6DBSNj02qWkOzZshe/Z2ZAYQ7XzuCZq385spkoYnggZc5irDeGaWmmeeod5If5F7QQfzs0ILWIPLFG3c1Rkx0x4j96Awn3/FFE/HZr71NMO1uAy1WP24Z6p75J64mbJPTJsAwiav9177dkWgAZf5NwcM7JuaaoOebO4sOQM791Q3dMDRGSNMBxtxWbPxmdIb6TVyj1szE1yECFTOwHxupQlzRwJ1kWc6eMOcDhfV+3QU9hu5x/W9rLXFLZrDli1I4mzEwBy7tyLiDNwWbhd4mmFcyRejoN/IPTH6ssBRfCv3EACfQihanjM3dRRJffy4OS0EBsri9A5c0QFwX4qJGvTExxCWtSLDz4Uve1nWyb2wEiid7NXeFG6nU8Uzkaau2Y1N3YqeuB7GuKit7JIdYlkPgV8VMPUS37BqNQP5hFC/kXvcK7ACWa3dtBtP1VD3VMQmr5ZWCTX01m/knnBkZu+SAPsAN+06GdZDXO/VahFAN/f7jNwDok2z9UBwdyBfqosmjGNbpIVNU9tUW/Tk18VDtaPIvGohqjy4qA602eam7kBP9xzOK0iOWYhMGMdVNPALVaGlRG/VTnZBT7Y+lOkmiqA8+yeeKeCjROmS/DQ5I1vFgWMQsIdeM7XOaRrXx2Am1fS5pe/JumkK1wso711nCoTj3ffxe3xitlDKyFIGcGUV3TAfwozgJLp8fG+26ObVwgg9bNjiLLZI/zGDDlUMuNmE2yyf6UZG9Zh4kkqx7MYtnM9bQLpmjbg/puAzwoqNKtDfKVCm0JVHS77mQ6YybXHQMWsEvHszipmVM1qzD6KEV+0Evk0wjdOxc9YIK5C60jJ9wu2z8SqkAt8WAeZJtFC3yL0AwF1hyxxmVH19vvrwW2yo6D9qpRvvtHPOPeoCGp7iU+gCDF1FxEknr3xKq6nkexJZzILBfU9FkeQTsVURcd9lzzGjHUUCo0rYd0Ab4X/Yc869ioj3p6XJ6TwlEiMxdD8BEzZpQh5/+865Vx3FNvR3Xp1EFqk7JjNT0nzmohISkNVWZ/T/9hLMmYB+c+7VJJVtoA8IfIyO4qXvSIjDSH7Epf4wzqM0FnIshocxwGIsRgKT+sy5Z4gUngmeKm1ikF3WFO4YT3PBWTeEgXXNfb4nFsMQATuDAtxawUgTE5Uz7hYTtSp6JWCfsGY9vCPnnh7pz4Anhs+OAZzu5L+Mi6wRN9tkWoqLXglrc2zuc/vIPaSH+pl3SRApOaQEpmNhGvTLpm43yjQUOmWvOPc+I/f0yP+azfjCC5xmIoKWsBvHvVodHJOJ96nsFZfQ6i9yDxz1fK9ZTJFQO6meirKL+LpufrsY5b2iQnypdS96UoqmaSYRMTl/JNioX0qcdxFfh7vFedMiPQXXlwnpK3LPMYTPpoSQMYI4Iy9tis11XQRkr6mVzyX8Un+Re7WHDUZW8sd1wGeaRB8q8OR6fUtAmWT+sQtv1+u1qL1KJ65iajGRbI7k/vg1q0WrjOVOwwZjEkBQu5zPZ/FCtNTD4mQMlRwza4qxn11Oa13/KDXzPo634pWdkryiHXri1HTuab1tBzTWwrknKaxUTr/XGPXS07knx9YdC466zItbVDKS8pwEIl/1XHeVdp3RE0pMfoypxm8RwQ5I40B5cj/h8hxLYKpxp+irW+QecBH0ZsdE0/+okYbMVEM1B4VSOs9McycqGEn+/ysRu6GkyVDJ6paxPPBrzgEvMCyPxxtoZmFI9CKi8rCSpISOEIzXPIBsLYTdMpaTmu2yCFRONmkodBMzQ7NZ9TYlJSPxRRe9S3W7kSWDbhnLUd0Z2Ci+5Tx+ntvhWLm+D7iTS0TUc8q7oeaqwdWo1E/cMWN53SxSt3UqLNAbkjV1Ev1Jn1MoJPeTlLDohpo2ah0SJ3COwpVVgpq6ZI2w7z0K+SVaNrBoOcgX+/luSpHASFRCVHZDk2womdID6C0yxTnsvK6+JxvefZbiTRj8edkyIJikEXMSI2l3tOiGbgALuJCMEGZNYU2f26En6+5QvWQzjP9/IpyZUhlJSgiyWqwM4BIg6V6/XNO7+J5a4tQ/0gMRtPRaF24nKSHO+BIlOc0UDJGxXAJC77toV5snillagWleSt2CelwmhkMwJUzMZVUDl7A2L8TdvidxR+xEK9t3sni7dFPGMRpwUJ3E82JFCaFtWZq0NMPk3LMFU9G2slrd4Ytz5NAsoty8Gz4HBlwmKuE+WeJ1qYUekXOv8Awp0RnnhQfETOOqZyojU8498ZgaY4KV0HKmgU2QroFq0BN/mtPyq0ySAKsxs7uQfK9hFK9Qh8uIvBI6WNkCWbYP1WuBnrhTC5e1HOO/Rx7V3WsQcaM5nQTkfCbA0gxg+1C9FuiJP1Bc1gog4bhNO32rZ0qDyypKqDFiqNqrHiP3hA9rObQ4jiT3Yh9jDPzqvXpdnLtVRlKKL60GDpyxXMiPcClS4WElGitJk4wrafT0oxhbEiNPUkI1rZecZG+YjOVCMOmJZH+t3ck9xoQg6V6tiFc515GcVOhYHcD8cxf3LIAtMpYLS8MOJnDVeJLtmJzkEu61dBsbm0BkJMJ+JZ/3BiKvrUfsDvREpDdn/1EPd/dbS7gX6kYRCp/HpTWu+Sxh6SO+9wRbfvrneAJlEm7dizoHHJfVeC4udYek+v3ek9X+hOx+C/ME5joRJ4xhugCoCcpLWvf8+ad635Nr2kWr28BIk9AnriBVF68ATcIpg4Rm58AStD/Z1ClyT/+eHkHY8AmWZOIxbxVfTCqdAPkHf+/J1gmyB3bjJ6yYThJt6ug6WgLcw/LQzvdkW+rjXpa1k2Xd8Xymk618Gm/enfio49dyq2ch1sL3nigG09rX9dgixvgC6jxIg6CnvCgdyTtvK3DJt2jt5wBvpeSDFs/7Wq6Fw+gyn+8vScC9xjPlgmntp61uoEt/C+BdkXspEmS2OjL/sVuvkw0DmOaR/X//Wi6bmOuXEDMtgf9DvpaLAhq2f12/+v7A06Bfy80+Flgj5M6zJ/L8mn/B4kd9LRfTiWF2Tc4xUtuyuNtmPSU/72u5WRJy7Zf1XDvHVvwS6Jfv8F/LFc5MYcWsiwr0BLmHw+mbbx85924sJs/Sk0aS+EXkHvcsn3rn20fOvduLLvFDvvXB/Ud8HzHJEdQ/384591oVOcDIviyX1PK0hCc0FN8uOffaFTm+2ObBF2IS8snw31ZvFbl3V7GU5svNam3ApyBiD8b3rsi9e0iI/d6nAAkL25T3JYJoRS0zlt9RdMUPJifh+ich/mGDB+PbBj11K9K6cACv/8/j9nHuqW3RHJR6JEPy7Rk9mYtBYJQQ+wPyHQA9mYqWKcIhHpbvEOjJUDTs4S+H5jsUetK5sXR7bpmHcFC+A6InJX2fegwjfgTfIdFTJQjQkqImkzDSh/AdFD1VijZAfDfuMoWP4jswepKKTCmc0yyanRCATakefhR6qhQZ8zxE7EF8H7JaPLX4APT05OLw6OnZNDx6enLxAejpycWHoKenFh+Bnp5bfAh6em7xH1gPH4Kenll8EHp6XvFR6OnJq8VDUMyzio9ET08qPhw9Pbz4D6wWv+jpx9MvevrxxV/09POLv+jpBYqvL+H/AHNWjnTQGKLoAAAAAElFTkSuQmCC">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/5548f5ed00.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="practice.js"></script>
+
+
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-light " style="font-size: 25px; font-family: sans-serif;">
+
+        <img src="https://t4.ftcdn.net/jpg/04/91/24/25/360_F_491242543_7PAKgEORnaN3sIf5A7EsRJGF2JNDPBsK.jpg" width="124" height="45"
+            class="d-inline-block align-top" alt="Logo">
+       <p id="head-id"> Least time travel path project</p>
+
+    </nav>
+    <div id="container">
+        <div id="mynetwork">
+        </div>
+        <div id="container2">
+            <span id="temptext2" style="width: 100%; text-align: center; font-size: x-large">
+            </span>
+            <span id="temptext" style="width: 100%; text-align: center; font-size: x-large">
+                Red link represents bus travel time : <i class="fa fa-bus" aria-hidden="true" style="color: orange"></i><br>
+                Green link represents flight travel time : <i class="fa fa-plane" aria-hidden="true" style="color: green"></i><br>
+                Click on solve to get Solution !!
+            </span>
+            <div id="mynetwork2" style="display: none"></div>
+        </div>
+    </div>
+
+    <div>
+        <br>
+        <button type="button" class="btn btn-danger" id="generate-graph">Get New Problem</button>
+        <br>
+        <button type="button" class="btn btn-success" id="solve">Solve</button>
+    </div>
+   
+</body>
+
+</html>
